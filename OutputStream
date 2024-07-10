@@ -1,0 +1,12 @@
+InputStream is = null;
+OutputStream os = null;
+
+try {
+is = new FileInputStream("application.json")
+os = new FileOutPutStream("application.log")
+}catch (IOException io) {
+
+}finally {
+is.close();
+os.close()
+}
